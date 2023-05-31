@@ -4,7 +4,6 @@
 //
 //  Created by Ryan Goh on 31/5/23.
 //
-
 import SwiftUI
 
 struct ContentView: View {
@@ -12,7 +11,7 @@ struct ContentView: View {
         TabView {
             // Person 1 View
             VStack {
-                Image(systemName:"hamster.jpeg")
+                Image("hamster")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .padding()
@@ -21,7 +20,7 @@ struct ContentView: View {
                     .padding()
             }
             .tabItem {
-                Label("Gabriel", systemImage:"sad hamster.jpeg")
+                Label("Gabriel", systemImage:"person")
             }
             
             // Person 2 View
