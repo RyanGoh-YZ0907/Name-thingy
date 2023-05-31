@@ -17,7 +17,7 @@ struct ContentView: View {
                     .frame(width: 100, height: 100)
                     .padding()
                 
-                Text("I am Gabriel.")
+                Text("I am Gabriel. I like playing football/soccer.")
                     .padding()
             }
             .tabItem {
