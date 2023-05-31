@@ -40,7 +40,8 @@ struct ContentView: View {
             VStack {
                 Image("tablesoon")
                     .resizable()
-                    .frame(width: 100, height: 100)
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
                     .padding()
                 Text("Totally me")
                 
@@ -49,6 +50,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                 Text("I love brawl stars and I hate tables")
                     .background(.teal)
+                    .padding()
                     .foregroundColor(.white)
                 
                 
