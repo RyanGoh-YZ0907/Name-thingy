@@ -57,7 +57,7 @@ struct ContentView: View {
                 
             }
             .tabItem {
-                Label("Person 3", systemImage: "person.fill.turn.down")
+                Label("Person 3", systemImage: "person.circle.fill")
             }
         }
     }
