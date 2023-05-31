@@ -19,6 +19,7 @@
 		29B1FD872A27150A0079ACD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29B1FD892A27150B0079ACD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29B1FD8C2A27150B0079ACD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29B1FD932A27194B0079ACD4 /* MPS_Boo_Artwork.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = MPS_Boo_Artwork.webp; path = ../../../../Downloads/MPS_Boo_Artwork.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				29B1FD8C2A27150B0079ACD4 /* Preview Assets.xcassets */,
+				29B1FD932A27194B0079ACD4 /* MPS_Boo_Artwork.webp */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
