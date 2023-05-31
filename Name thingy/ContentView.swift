@@ -40,7 +40,7 @@ struct ContentView: View {
             
             // Person 3 View
             VStack {
-                Image(systemName:"tablesoon")
+                Image("tablesoon")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .padding()
@@ -57,7 +57,7 @@ struct ContentView: View {
                 
             }
             .tabItem {
-                Label("Person 3", systemImage: "person.circle.fill")
+                Label("JingLin", systemImage: "person.circle.fill")
             }
         }
     }
