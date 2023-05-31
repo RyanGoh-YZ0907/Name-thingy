@@ -11,9 +11,6 @@
 		29B1FD882A27150A0079ACD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1FD872A27150A0079ACD4 /* ContentView.swift */; };
 		29B1FD8A2A27150B0079ACD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B1FD892A27150B0079ACD4 /* Assets.xcassets */; };
 		29B1FD8D2A27150B0079ACD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B1FD8C2A27150B0079ACD4 /* Preview Assets.xcassets */; };
-		DF8B159B2A271F930029F802 /* hamster.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF8B159A2A271F930029F802 /* hamster.jpeg */; };
-		DF8B159D2A271F9B0029F802 /* sad hamster.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF8B159C2A271F9B0029F802 /* sad hamster.jpeg */; };
-		DF8B159F2A2720280029F802 /* Ghost.image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF8B159E2A2720280029F802 /* Ghost.image.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +19,6 @@
 		29B1FD872A27150A0079ACD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29B1FD892A27150B0079ACD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29B1FD8C2A27150B0079ACD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF8B159A2A271F930029F802 /* hamster.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hamster.jpeg; path = "../../../Desktop/swift accerlater /hamster.jpeg"; sourceTree = "<group>"; };
-		DF8B159C2A271F9B0029F802 /* sad hamster.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sad hamster.jpeg"; path = "../../../Desktop/swift accerlater /sad hamster.jpeg"; sourceTree = "<group>"; };
-		DF8B159E2A2720280029F802 /* Ghost.image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ghost.image.jpeg; path = "../../../Desktop/swift accerlater /Ghost.image.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +54,6 @@
 				29B1FD852A27150A0079ACD4 /* Name_thingyApp.swift */,
 				29B1FD872A27150A0079ACD4 /* ContentView.swift */,
 				29B1FD892A27150B0079ACD4 /* Assets.xcassets */,
-				DF8B159E2A2720280029F802 /* Ghost.image.jpeg */,
-				DF8B159A2A271F930029F802 /* hamster.jpeg */,
-				DF8B159C2A271F9B0029F802 /* sad hamster.jpeg */,
 				29B1FD8B2A27150B0079ACD4 /* Preview Content */,
 			);
 			path = "Name thingy";
@@ -134,11 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8B159B2A271F930029F802 /* hamster.jpeg in Resources */,
-				DF8B159F2A2720280029F802 /* Ghost.image.jpeg in Resources */,
 				29B1FD8D2A27150B0079ACD4 /* Preview Assets.xcassets in Resources */,
 				29B1FD8A2A27150B0079ACD4 /* Assets.xcassets in Resources */,
-				DF8B159D2A271F9B0029F802 /* sad hamster.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
