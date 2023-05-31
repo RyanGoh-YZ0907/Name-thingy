@@ -12,16 +12,16 @@ struct ContentView: View {
         TabView {
             // Person 1 View
             VStack {
-                Image(systemName: "person.circle.fill")
+                Image(systemName:"hamster.jpeg")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .padding()
                 
-                Text("This is person 1! Replace me with a view.")
+                Text("I am Gabriel.")
                     .padding()
             }
             .tabItem {
-                Label("Person 1", systemImage: "person.circle.fill")
+                Label("Gabriel", systemImage:"sad hamster.jpeg")
             }
             
             // Person 2 View
