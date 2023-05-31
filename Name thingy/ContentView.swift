@@ -26,7 +26,7 @@ struct ContentView: View {
             
             // Person 2 View
             VStack {
-                Image(systemName: "person")
+                Image("Ghost.image")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .padding()
@@ -35,9 +35,8 @@ struct ContentView: View {
                     .padding()
             }
             .tabItem {
-                Label("Person 2", systemImage: "MPS_boo_Artwork")
+                Label("Ryan", systemImage: "person")
             }
-            
             // Person 3 View
             VStack {
                 Image("tablesoon")
