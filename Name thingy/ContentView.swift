@@ -40,13 +40,21 @@ struct ContentView: View {
             
             // Person 3 View
             VStack {
-                Image(systemName: "person.fill.turn.down")
+                Image(systemName:"tablesoon")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .padding()
+                Text("Totally me")
                 
-                Text("This is person 3! Replace me with yet another view.")
+                Text("Hai im JingLin🤫.")
                     .padding()
+                    .font(.largeTitle)
+                Text("I love brawl stars and I hate tables")
+                    .background(.teal)
+                    .foregroundColor(.white)
+                
+                
+                
             }
             .tabItem {
                 Label("Person 3", systemImage: "person.fill.turn.down")
